@@ -16,3 +16,20 @@ body {
     color: #F9FAF8;
 }
 
+.header {
+    padding-top: 5px;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.logo {
+    font-size: 24px;
+}
+.header ul {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    margin: 0px;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-left: auto;
+}
