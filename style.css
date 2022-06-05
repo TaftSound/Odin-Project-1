@@ -13,7 +13,7 @@ body {
 
 .flex {
     display: flex;
-    flex:auto;
+    flex:5 5 auto;
     padding: 0vw 10vw;
 }
 
@@ -66,7 +66,7 @@ button {
     border-color: #3882F6;
     border-radius: 5px;
     border-style: solid;
-    padding: 3px 20px;
+    padding: 5px 20px;
     color: #F9FAF8;
 }
 .hero-image-container {
@@ -109,13 +109,44 @@ h2 {
     background-color: #E5E7EB;
     flex-direction: column;
     justify-content: center;
-    padding: 5vh 17vw;
+    align-items: flex-end;
+    padding: 3vh 17vw;
 }
 .quote {
     font-size: 36px;
     font-weight: 100;
+    color: #1F2937;
 }
 .quote-credit {
-    align-self: flex-end;
-    padding-right: 15px;
+    padding-right: 45px;
+}
+
+.action-section.flex{
+    justify-content: stretch;
+}
+.action-card {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    flex: auto;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 2vh 8vw;
+    border-radius: 5px;
+}
+.action-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.action-text strong {
+    font-size: 18px;
+}
+.action-text p {
+    margin: 0px;
+}
+.action-card button {
+    border-color: #F9FAF8;
+    margin: 5px 0px;
 }
