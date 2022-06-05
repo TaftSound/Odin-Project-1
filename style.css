@@ -47,7 +47,7 @@ body {
 
 .hero {
     gap: 32px;
-    padding: 6vh 10vw;
+    padding: 5vh 10vw;
 }
 .hero div {
     flex: 1;
@@ -83,17 +83,18 @@ button {
 h2 {
     font-size: 36px;
     font-weight: 900;
+    color: #1F2937;
 }
 .icon-row {
     display: flex;
-    gap: 35px;
+    gap: 30px;
     justify-content: center;
 }
 .icon {
-    width: 150px;
+    width: 13vw;
 }
 .icon-container {
-    height: 150px;
+    height: 13vw;
     border: 3px;
     border-style: solid;
     border-radius: 10px;
@@ -101,5 +102,20 @@ h2 {
 }
 .icon-text {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 7px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5vh 17vw;
+}
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+}
+.quote-credit {
+    align-self: flex-end;
+    padding-right: 15px;
 }
